@@ -1,13 +1,26 @@
-# Getting started with `vue-test-utils`
+# ut
 
-## Setup
-
-``` bash
-npm install
-npm test
+## Project setup
+```
+yarn install
 ```
 
-## Resources
+### Compiles and hot-reloads for development
+```
+yarn run serve
+```
 
-- [vue-test-utils docs](https://vue-test-utils.vuejs.org)
-- [vue-test-utils repo](https://github.com/vuejs/vue-test-utils)
+### Compiles and minifies for production
+```
+yarn run build
+```
+
+### Lints and fixes files
+```
+yarn run lint
+```
+
+### Run your unit tests
+```
+yarn run test:unit
+```
