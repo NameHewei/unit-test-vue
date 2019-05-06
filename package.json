@@ -1,12 +1,12 @@
 {
-  "name": "ut",
+  "name": "unit-test",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "test:unit": "vue-cli-service test:unit"
+    "test": "vue-cli-service test:unit"
   },
   "dependencies": {
     "core-js": "^2.6.5",
@@ -24,6 +24,7 @@
     "babel-eslint": "^10.0.1",
     "chai": "^4.1.2",
     "eslint": "^5.16.0",
+    "sinon": "^7.3.2",
     "eslint-plugin-vue": "^5.0.0",
     "vue-template-compiler": "^2.5.21"
   }
